@@ -1,7 +1,6 @@
-var randomNumber = [ 234234,2352356346,326,554376345,7453745,3745374537,3457345747,534754373547,5473547487,453745375437,34574575437,45375437543745,375437345,734633];
 
 var randomstuff = [
-    randomNumber.ToString()+'th update',
+    '34543535th update',
     'imagine having to update your page',
     'big update???',
     'i have to rewrite everything...',
@@ -32,7 +31,6 @@ document.getElementById('random').innerText = randomstuff[Math.floor(Math.random
 document.body.addEventListener('keydown', (key) => {
     if(key.key == "r")
     {
-                randomNumber = randomNumber[Math.floor(Math.random() * randomNumber.length)];
         document.getElementById('random').innerText = randomstuff[Math.floor(Math.random() * randomstuff.length)];
     }
 });
