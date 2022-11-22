@@ -66,7 +66,7 @@ var randomstuff = [
     'i hate html',
     'i love u',
     'i hate u',
-    'jk, or was i..'
+    'jk, or was i..',
     'm',
     'a',
     'b',
