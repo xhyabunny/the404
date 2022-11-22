@@ -70,8 +70,7 @@ var randomstuff = [
     'm',
     'a',
     'b',
-    'KFDJGIKDHPRIOGUAEHJPBIDFUHBIERAPDFOSBNOIFDKHBNAFGJMBVPFHBNFDIKHJDA',
-    '+`´`+eñ+t`4ñ3+`´´ñ+34`ñ+43`ñ+`ñ+´ñ`ñ`-+`hgñdfg+`jfd+`ñFG`js',
+    'KFDJGIKDHPRIOGUAEHJPBIDFUHBIERAPDFOSBNOIFDKHBNAFGJMBVPFHBNFDIKHJDA'
 ];
 
 document.getElementById('random').innerText = randomstuff[Math.floor(Math.random() * randomstuff.length)];
